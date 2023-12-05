@@ -1,0 +1,19 @@
+Passo a passo - Exercicio
+
+#Clonar o projeto
+git.exe clone --progress -v "https://github.com/Cristianomeneses2008/gitaula.git" "C:\git\gitaula"
+
+#Criar a Branch develop
+git checkout -b develop
+
+#Criar arquivo no windows
+cp .gitignore > .gitignore
+
+#Adicionar o arquivo novo no git
+git add .gitignore
+
+#Commitar arquivos
+git commit -m "inicio"
+
+#Push
+git push -u origin develop
